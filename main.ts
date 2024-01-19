@@ -24,4 +24,4 @@ const server = new ApolloServer({
 });
 
 const { url } = await startStandaloneServer(server)
-console.info(`🚀 Server ready at ${url}`);
+console.info(`🚀 servidor listo en ${url}`);
